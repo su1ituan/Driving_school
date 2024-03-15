@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Rubik";
+    src: url(fonts/Rubik/Rubik-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Rubik";
+    src: url(fonts/Rubik/Rubik-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-ExtraBold.ttf);
+    font-style: normal;
+    font-weight: 800;
+}
+body {margin: 0;}
+header {background: #F0F0F0; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25); display: flex; align-items: center; height: 60px; justify-content: center;}
+nav > a {display: inline-block; font-family: "Rubik"; font-weight: 500; font-size: 15px; color: black; text-decoration: none; border-right: 1px solid #746b6b; padding-right: 20px; padding-left: 20px;}
+nav > a:last-child{border-right: none; padding-right: none;}
+.logo {font-family: "Montserrat"; color: #E6373E; font-size: 40px;}
+.bcall {border-radius: 6px; width: 145px; height: 30px; box-shadow: 1px 1px 1px 0 #bbbfc6; background: #dfe2e7; font-family: "Rubik";  font-weight: 500; color: #8C96AF; display: flex; align-items: center; margin-left: 20px;}
+.bcall > img {padding: 5px;}
+.num, address {font-family: "Rubik"; font-weight: 400; font-style: normal; font-size: 15px;}
+address {font-size: 11px;}
