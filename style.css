@@ -16,12 +16,52 @@
     font-style: normal;
     font-weight: 800;
 }
-body {margin: 0;}
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Rubik";
+    src: url(fonts/Rubik/Rubik-Light.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-Light.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+body {margin: 0; background-color: #f0f0f0;}
 header {background: #F0F0F0; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25); display: flex; align-items: center; height: 60px; justify-content: center;}
-nav > a {display: inline-block; font-family: "Rubik"; font-weight: 500; font-size: 15px; color: black; text-decoration: none; border-right: 1px solid #746b6b; padding-right: 20px; padding-left: 20px;}
+nav > a {display: inline-block; font-family: "Rubik"; font-weight: 500; font-size: 15px; color: black; text-decoration: none; border-right: 1px solid #746b6b; padding-right: 30px; padding-left: 20px;}
 nav > a:last-child{border-right: none; padding-right: none;}
-.logo {font-family: "Montserrat"; color: #E6373E; font-size: 40px;}
-.bcall {border-radius: 6px; width: 145px; height: 30px; box-shadow: 1px 1px 1px 0 #bbbfc6; background: #dfe2e7; font-family: "Rubik";  font-weight: 500; color: #8C96AF; display: flex; align-items: center; margin-left: 20px;}
+.logo {font-family: "Montserrat"; color: #E6373E; font-size: 40px; font-weight: 800; margin-right: 22.5px;}
+.bcall {border-radius: 6px; width: 145px; height: 30px; box-shadow: 1px 1px 1px 0 #bbbfc6; background: #dfe2e7; font-family: "Rubik";  font-weight: 500; color: #8C96AF; display: flex; align-items: center; margin-left: 20px; cursor: pointer;}
 .bcall > img {padding: 5px;}
 .num, address {font-family: "Rubik"; font-weight: 400; font-style: normal; font-size: 15px;}
 address {font-size: 11px;}
+section {overflow-x: hidden;}
+.sel-block {display: flex; justify-content: center; flex-direction: column;}
+.twc {display: flex; width: 1200px; height: 500px; margin-left: 225px;}
+.text1 {font-family: "Montserrat"; font-size: 55px; font-weight: 800; margin-top: 144px;}
+.text2 {font-family: "Montserrat"; font-size: 30px; font-weight: 500; margin-bottom: 61px;}
+.btn1, .btn2 {font-family: "Montserrat"; font-size: 18px; font-weight: 500; padding: 15px; display: inline-block; cursor: pointer;}
+.btn1 {color: #FFFFFF; border-radius: 8px; box-shadow: 2px 2px 5px 0 rgba(238, 59, 62, 0.75); background: #e63c3c;}
+.btn2 {color: #EE3B3E; border: 2px solid #e63c3c; border-radius: 8px; box-shadow: 1px 1px 5px 0 #ee3b3e; padding-left: 40px; padding-right: 40px; margin-left: 25px;}
+.car1 {width: 400px; height: 400px; margin-left: 25px; position: relative;}
+.icar {width: 774px;}
+.ztext {font-family: "Rubik";  font-weight: 200; font-size: 16px; padding-left: 18px;}
+.zny {display: flex; background-color: rgba(255, 255, 255, 0.8); border-radius: 40px; padding: 10px; width: 274px; height: 66px; align-items: center; position: absolute; top: 130px; left: 250px; box-shadow: 1px 1px 5px 0 #000000;}
+.iy {height: 75px; width: 80px; margin-left: -5px;}
+.fblock {background-color: #e63c3c; font-family: "Montserrat"; font-size: 13px; font-weight: 200; display: flex; align-items: center;}
+.block1, .block2, .block3, .block4 {border-radius: 13px; width: 210px; height: 85px; background: #fff; display: flex; margin-left: 69px; padding-left: 10px;}
+.ikeys {top: -45px; left: 100px; position: absolute; width:150px;}
+.fblock > div {position: relative;}
+.block1 > span, .block2 > span, .block3 > span, .block4 > span {padding-top: 16px;}
+.icars {top: -10px; left: 120px; position: absolute; width: 125px;}
+.block2 {overflow: hidden;}
+.imoney {top: -41.5px; left: 110px; position: absolute; width:}
+
