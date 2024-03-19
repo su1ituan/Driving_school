@@ -72,7 +72,7 @@ address {font-size: 11px;}
 .imoney {top: -70px; left: 90px; position: absolute; width: 170px;}
 .iman {top: -25px; left: 100px; position: absolute; width: 120px;}
 .ctgs {font-family: "Montserrat"; font-size: 80px; font-weight: 800; color: #F0F0F0; display: flex; align-items: center; border: 3px solid #d7d7d7; border-radius: 12px; width: 1120px; height: 140px; margin-left: 225px; margin-top: 100px;}
-.ctg1, .ctg2, .ctg3, .ctg4, .ctg5 {display: flex; border-radius: 9px; width: 195px; height: 100px; box-shadow: 2px 2px 2px 0 rgba(215, 215, 215, 0.95); background: #d7d7d7; margin-left: 24.16px; padding-left: 0px; position: relative;}
+.ctg1, .ctg2, .ctg3, .ctg4, .ctg5 {display: flex; border-radius: 9px; width: 195px; height: 100px; box-shadow: 2px 2px 2px 0 rgba(215, 215, 215, 0.95); background: #d7d7d7; margin-left: 24.16px; padding-left: 0px; position: relative; cursor: pointer;}
 .ctg2 {box-shadow: 1px 1px 2px 0 rgba(140, 150, 175, 0.95); background: #8c96af;}
 .ctg2, .ctg3 {overflow: hidden;}
 .ctg1 > span, .ctg2 > span, .ctg3 > span {padding-left: 110px;}
@@ -89,7 +89,7 @@ address {font-size: 11px;}
 .chbox1 {display: flex; align-items: center; border-radius: 5px; width: 94.5px; height: 20px; box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.15); background: #d9d9d9; margin-left: 3px; padding-left: 6.5px;}
 .chbox2 {display: flex; align-items: center; border-radius: 5px; width: 94.5px; height: 20px; margin-right: 3px; padding-left: 6.5px; margin-left: 5px}
 .pwb {display: flex; margin-left: 245px;}
-.btback {display: flex; align-items: center; border-radius: 7px; width: 55px; height: 55px; box-shadow: -1px 1px 0 0 rgba(192, 189, 189, 0.75); background: #d7d7d7; margin-right: 60px; margin-top: 90px;}
+.btback {display: flex; align-items: center; border-radius: 7px; width: 55px; height: 55px; box-shadow: -1px 1px 0 0 rgba(192, 189, 189, 0.75); background: #d7d7d7; margin-right: 60px; margin-top: 90px; cursor: pointer;}
 .btback > img{margin-left: 12.5px;} 
 .price {font-family: "Montserrat"; font-size: 20px; font-weight: 500;}
 .pr1, .pr2, .pr3, .pr4 {display: flex; align-items: center;}
@@ -106,12 +106,12 @@ address {font-size: 11px;}
 .line3 {border: 1.50px solid #d7d7d7; width: 155px; height: 0px; box-shadow: -1px 0px 1px 0 rgba(0, 0, 0, 0.25); margin-left: -20px;margin-right: 20px;}
 .pr3>div {margin-top: 14px;}
 .line4 {border: 1.50px solid #d7d7d7; width: 66px; height: 0px; box-shadow: -0px 0 1px 0 rgba(0, 0, 0, 0.25); margin-left: 25px; margin-right: 20px;}
-.btnd {border-radius: 8px; width: 255px; height: 54px; box-shadow: 2px 2px 5px 0 rgba(238, 59, 62, 0.75); background: #e63c3c; display: flex; align-items: center; font-family: "Montserrat"; font-size: 17px; font-weight: 500; color: #fff; margin-left: 405px; padding-left: 27px; margin-top: 30px; margin-bottom: 10px;}
+.btnd {border-radius: 8px; width: 255px; height: 54px; box-shadow: 2px 2px 5px 0 rgba(238, 59, 62, 0.75); background: #e63c3c; display: flex; align-items: center; font-family: "Montserrat"; font-size: 17px; font-weight: 500; color: #fff; margin-left: 405px; padding-left: 27px; margin-top: 30px; margin-bottom: 10px; cursor: pointer;}
 .btnd >img {margin-left: 15px; width: 25px;}
 .dtxt {font-family: "Montserrat"; font-size: 10px; font-weight: 400; text-shadow: 0px -1px 2px 0 rgba(0, 0, 0, 0.25); margin-left: 445px;}
 .dchange {margin-bottom: 50px;}
 .cwc {display: flex; align-items: center;}
 .cbtn >img {width: 390px; }
 .cbtn {display: flex; align-items: center;}
-.btnext {display: flex; align-items: center; border-radius: 7px; width: 55px; height: 55px; box-shadow: 1px 1px 0 0 rgba(192, 189, 189, 0.75); background: #d7d7d7; margin-left: 25px; margin-bottom: 10px;}
+.btnext {display: flex; align-items: center; border-radius: 7px; width: 55px; height: 55px; box-shadow: 1px 1px 0 0 rgba(192, 189, 189, 0.75); background: #d7d7d7; margin-left: 25px; margin-bottom: 10px; cursor: pointer;}
 .btnext > img {margin-left: 12.5px;}
