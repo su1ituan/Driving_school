@@ -78,7 +78,7 @@ address {font-size: 11px;}
 .imoney {top: -70px; left: 90px; position: absolute; width: 170px;}
 .iman {top: -25px; left: 100px; position: absolute; width: 120px;}
 .ctgs {font-family: "Montserrat"; font-size: 80px; font-weight: 800; color: #F0F0F0; display: flex; align-items: center; border: 3px solid #d7d7d7; border-radius: 12px; width: 1120px; height: 140px; margin-left: 225px; margin-top: 100px;}
-.ctgs > .active {background: #8c96af;}
+.ctgs > .active {background: #8c96af; transition: 1.5s all;}
 .ctg1, .ctg2, .ctg3, .ctg4, .ctg5 {display: flex; border-radius: 9px; width: 195px; height: 100px; box-shadow: 2px 2px 2px 0 rgba(215, 215, 215, 0.95); background: #d7d7d7; margin-left: 24.16px; padding-left: 0px; position: relative; cursor: pointer;}
 .ctg2, .ctg3 {overflow: hidden;}
 .ctg1 > span, .ctg2 > span, .ctg3 > span {padding-left: 110px;}
@@ -157,5 +157,5 @@ address {font-size: 11px;}
 .sn {margin-left: 140px;}
 .snimg {display: flex; align-items: center; margin-top: 10px;}
 .tg, .yt {height: 33px; cursor: pointer;}
-.tg {margin-left: 4px; cursor: pointer;}
-.inst {height: 39px; margin-left: 7px; margin-right: 7px;}
+.tg {margin-left: 4px;}
+.inst {height: 39px; margin-left: 7px; margin-right: 7px; cursor: pointer;}
