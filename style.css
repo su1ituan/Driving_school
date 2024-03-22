@@ -40,6 +40,12 @@
     font-style: normal;
     font-weight: 400;
 }
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
 body {margin: 0; background-color: #f0f0f0;}
 header {background: #F0F0F0; box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25); display: flex; align-items: center; height: 60px; justify-content: center;}
 nav > a {display: inline-block; font-family: "Rubik"; font-weight: 500; font-size: 15px; color: black; text-decoration: none; border-right: 1px solid #746b6b; padding-right: 30px; padding-left: 20px; transition: color 0.3s linear;}
@@ -86,8 +92,9 @@ address {font-size: 11px;}
 .chtext1 > span {font-family: "Montserrat"; font-size: 40px; font-weight: 800; color: #8c96af; text-shadow: 0px 1px 1px 0 rgba(0, 0, 0, 0.15);}
 .chbox1, .chbox2 {font-family: "Montserrat"; font-size: 20px; font-weight: 500; color: #8c96af; text-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15); cursor: pointer;}
 .chboxes {display: flex; align-items: center; border: 2px solid #d7d7d7; border-radius: 5px; width: 200px; height: 26px; margin-top: 11px; margin-left: 30px;}
-.chbox1 {display: flex; align-items: center; border-radius: 5px; width: 94.5px; height: 20px; box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.15); background: #d9d9d9; margin-left: 3px; padding-left: 6.5px;}
-.chbox2 {display: flex; align-items: center; border-radius: 5px; width: 94.5px; height: 20px; margin-right: 3px; padding-left: 6.5px; margin-left: 5px}
+.chboxes > .active {background: #d9d9d9; transition: 0.7s all;}
+.chbox1 {display: flex; align-items: center; border-radius: 5px; width: 80px; height: 20px; margin-left: 3px; padding-left: 15px;}
+.chbox2 {display: flex; align-items: center; border-radius: 5px; width: 80px; height: 20px; margin-right: 3px; padding-left: 16px; margin-left: 5px}
 .pwb {display: flex; margin-left: 245px;}
 .btback {display: flex; align-items: center; border-radius: 7px; width: 55px; height: 55px; box-shadow: -1px 1px 0 0 rgba(192, 189, 189, 0.75); background: #d7d7d7; margin-right: 60px; margin-top: 90px; cursor: pointer;}
 .btback > img{margin-left: 12.5px;} 
@@ -112,9 +119,29 @@ address {font-size: 11px;}
 .btnd {border-radius: 8px; width: 255px; height: 54px; box-shadow: 2px 2px 5px 0 rgba(238, 59, 62, 0.75); background: #e63c3c; display: flex; align-items: center; font-family: "Montserrat"; font-size: 17px; font-weight: 500; color: #fff; margin-left: 405px; padding-left: 27px; margin-top: 30px; margin-bottom: 10px; cursor: pointer;}
 .btnd >img {margin-left: 15px; width: 25px;}
 .dtxt {font-family: "Montserrat"; font-size: 10px; font-weight: 400; text-shadow: 0px -1px 2px 0 rgba(0, 0, 0, 0.25); margin-left: 445px;}
-.dchange {margin-bottom: 50px;}
 .cwc {display: flex; align-items: center;}
 .cbtn >img {width: 390px; }
 .cbtn {display: flex; align-items: center;}
 .btnext {display: flex; align-items: center; border-radius: 7px; width: 55px; height: 55px; box-shadow: 1px 1px 0 0 rgba(192, 189, 189, 0.75); background: #d7d7d7; margin-left: 25px; margin-bottom: 10px; cursor: pointer;}
 .btnext > img {margin-left: 12.5px;}
+.sec3 {margin-top: 50px; background-image:linear-gradient(rgba(45, 45, 65, 0.9), rgba(45, 45, 65, 0.8), rgba(30, 30, 66, 0.8)), url("images/bgsec3.png"); background-repeat: no-repeat; background-size: cover;}
+.tt1 {display: block; font-family: "Montserrat"; font-size: 35px; font-weight: 500; color: #fff; margin-bottom: 20px; padding-left: 30px;}
+.tt2 {font-family: "Montserrat"; font-size: 15px; font-weight: 500; color: #fff;}
+.s3text {padding-top: 60px; margin-left: 487px;}
+.blt {font-family: "Montserrat"; font-size: 13px; font-weight: 700; border-radius: 11px; width: 275px; height: 210px; box-shadow: 5px 10px 5px 0 rgba(255, 255, 255, 0.25); background: #fff; color: #000; top: 68; left: -37px; position: absolute;;}
+.btam {position: relative; margin-left: 310px; margin-top: 60px;}
+.elt1, .elt3, .elt6 {color: #6d7697; display: block; margin-top: 15px;}
+.elt5 {font-size: 11px;}
+.elt1 {margin-top: 32px; margin-left: 16px;}
+.elt2 {margin-left: 61px;}
+.elt3 {margin-left: 60px;}
+.elt4 {margin-left: 81px;}
+.elt5 {margin-left: 90px;}
+.elt6 {margin-left: 83px;}
+.elt7 {margin-left: 76px;}
+.mai {display: flex;}
+.name, .numphone {outline: none !important; border-radius: 6px; width: 255px; height: 60px; border-color: #fff; display: block;}
+::placeholder {font-family: "Montserrat"; font-size: 17px; font-weight: 500; text-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);}
+.name {background: url(images/contact.svg) no-repeat; padding: 5px 5px 5px 85px;}
+.numphone{background: url(images/numphone.svg) no-repeat; padding: 5px 5px 5px 85px;}
+.btns31 {font-family: "Montserrat"; font-size: 15px; font-weight: 500; border-radius: 6px; width: 135px; height: 55px; background: #f5f5f7; border-color: #fff; cursor: pointer;}
