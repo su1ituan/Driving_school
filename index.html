@@ -75,23 +75,23 @@
     <section class="sec2">
         <div class="sec-block2">
             <div class="ctgs">
-                <div class="ctg1">
+                <div class="ctg1" id="ctg1">
                     <img src="images/moto.png">
                     <span>A</span>
                 </div>
-                <div class="ctg2">
+                <div class="ctg2" id="ctg2">
                     <img src="images/car2.png">
                     <span>B</span>
                 </div>
-                <div class="ctg3">
+                <div class="ctg3" id="ctg3">
                     <img src="images/truck.png">
                     <span>C</span>
                 </div>
-                <div class="ctg4">
+                <div class="ctg4" id="ctg4">
                     <img src="images/trailer.png">
                     <span>BE</span>
                 </div>
-                <div class="ctg5">
+                <div class="ctg5" id="ctg5">
                     <img src="images/container.png">
                     <span>CE</span>
                 </div>
@@ -99,7 +99,7 @@
             <div class="cwc">
                 <div class="change">
                     <div class="chtext1">
-                        <span>Категорія B</span>
+                        <span id="txtctg">Категорія B</span>
                         <div class="chboxes">
                             <div class="chbox1" id="ch1">МКПП</div>
                             <div class="chbox2" id="ch2">АКПП</div>
@@ -147,7 +147,7 @@
                     </div>
                 </div>
                 <div class="cbtn">
-                    <img src="images/car3.png">
+                    <img id="tr" src="images/car3.png">
                     <div class="btnext">
                         <img src="images/arrownext.svg">
                     </div>
@@ -177,19 +177,41 @@
                 <form action="">
                     <input type="name" placeholder="Ім'я" class="name">
                     <input type="phone" placeholder="Номер телефону" class="numphone">
-                    <select class="btns31" name="ctg">
+                    <label class="lbl" for="cctg">Категорія прав:</label>
+                    <select class="btns31" name="ctg" id="cctg">
                         <option value="A">Категорія A</option>
                         <option value="B">Категорія B</option>
                         <option value="B">Категорія C</option>
                         <option value="BE">Категорія BE</option>
                         <option value="CE">Категорія CE</option>
                     </select>
+                    <div class="ibtn"><span>Записатися в автошколу</span></div>
+                    <div class="itext">Натискаючи на кнопку, Ви погоджуєтеся <br>з умовами <u>обробки персональних
+                            даних</u></div>
                 </form>
-                <div>name</div>
-                <div>number phone</div>
+
             </div>
         </div>
     </section>
+    <footer class="ft">
+        <div class="fttxt">
+            <span>АВТОШКОЛА «НІКА» М. КИЇВ <br>© Всі права захищені 1999-2023</span>
+            <span class="ftt1">Ліцензія 59ЛО3 № 3832</span>
+        </div>
+        <div><u>Політика конфеденційності</u></div>
+        <div class="sn">
+            <span>МИ В СОЦ. МЕРЕЖАХ</span>
+            <div class="snimg">
+                <img class="tg" src="images/tg.svg">
+            <img class="inst" src="images/inst.svg">
+                <img class="yt" src="images/YT.svg">
+            </div>
+        </div>
+        <div class="bcall2">
+            <img src="/images/phone.svg">
+            <span>ПОДЗВОНИТИ</span>
+        </div>
+    </footer>
 
 </body>
 
